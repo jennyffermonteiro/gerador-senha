@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="_imagens/favicon.png" type="image/x-icon">
+    <title>Gerador de Senhas</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <img src="_imagens/logo.png" alt="logo do site escrito gerador de senha">
+
+    <main class="conteiner-caracteres">
+        <span>Tamanho <span id="valor"></span>Caracteres</span>
+        <input id="slider" class="slider" type="range" min="5" max="30">
+
+        <button id="button" class="button-cta">GERAR SENHA</button>
+    </main>
+
+    <div class="conteiner-senha">
+        <span id="titulo">SUA SENHA GERADA</span>
+        <span id="senha" class="senha">aqui mostrará a sua senha</span>
+        <span class="tooltip">Clique na senha gerada acima para copia-lá 👆</span>
+    </div>
+
+    <footer>
+        <span><p>Desenvolvido por <a href="https://www.linkedin.com/in/jennyffer-monteiro/">Jennyffer Monteiro</a> ©️</p></span>
+    </footer>
+
+    <script scr="script.js"></script>
+    
+</body>
+</html>
