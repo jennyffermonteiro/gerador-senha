@@ -92,15 +92,17 @@ body{
     
 }
 
+.conteiner-senha:hover .tooltip{
+    visibility: visible;
+}
+
 .conteiner-rodape span{
       color: white;
-   
+      max-width: 100%;   
  }
 
 .conteiner-rodape a{
     color: #393cee;
 }
 
-.conteiner-senha:hover .tooltip{
-    visibility: visible;
-}
+
