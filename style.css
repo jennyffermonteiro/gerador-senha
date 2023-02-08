@@ -19,12 +19,12 @@ body{
     max-width: 500px;
 }
 
-.conteiner-caracteres{
+.container-caracteres{
     margin: 20px;
     max-width: 400px;    
 }
 
-.conteiner-caracteres span{
+.container-caracteres span{
     color: #ffffff;
     font-size: 20px;
 }
@@ -53,11 +53,12 @@ body{
  
 }
 
-.conteiner-senha{
+.container-senha{
     display: flex;
     align-items: center;
     flex-direction: column; 
-    max-width: 400px;     
+    max-width: 400px;  
+    justify-content: center;   
 }
 
 #titulo{    
@@ -88,20 +89,15 @@ body{
     text-align: center;
     font-size: 16px;
     margin-bottom: 100px;
-    visibility: hidden;
-    
+        
 }
 
-.conteiner-senha:hover .tooltip{
-    visibility: visible;
-}
-
-.conteiner-rodape span{
+.container-rodape span{
       color: white;
       max-width: 100%;   
  }
 
-.conteiner-rodape a{
+.container-rodape a{
     color: #393cee;
 }
 
